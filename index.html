@@ -1,147 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dahboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
     <div id="container">
+      <div class="item" id="sideBar">
+        <div id="title">
+          <div id="titleIcon">
+            <img id="dashboardIcon" src="/icons/dashboard.svg" alt="" />
+          </div>
 
+          <div id="titleText">Dashboard</div>
+        </div>
 
-        <div class="item" id="sideBar">
-            <div id="title" >
-               
-                <div id="titleIcon">
-                    <img id="dashboardIcon" src="/icons/dashboard.svg" alt="">
-                </div>
+        <div id="nav">
+          <div class="navItem" id="home">
+            <div>
+              <img class="icon" src="/icons/home.svg" alt="" />
+            </div>
+            <div>
+              <a href="">Home</a>
+            </div>
+          </div>
 
-                <div id="titleText">
-                    Dashboard
-                </div>
-               
+          <div class="navItem" id="profile">
+            <div>
+              <img class="icon" src="/icons/profile.svg" alt="" />
+            </div>
+            <div>
+              <a href="">Profile</a>
+            </div>
+          </div>
+
+          <div class="navItem" id="messages">
+            <div>
+              <img class="icon" src="/icons/messages.svg" alt="" />
+            </div>
+            <div>
+              <a href="">Messages</a>
+            </div>
+          </div>
+
+          <div class="navItem" id="history">
+            <div>
+              <img class="icon" src="/icons/history.svg" alt="" />
+            </div>
+            <div>
+              <a href="">History</a>
+            </div>
+          </div>
+
+          <div class="navItem" id="tasks">
+            <div>
+              <img class="icon" src="/icons/tasks.svg" alt="" />
+            </div>
+            <div>
+              <a href="">Tasks</a>
+            </div>
+          </div>
+
+          <div class="navItem" id="communities">
+            <div>
+              <img class="icon" src="/icons/communities.svg" alt="" />
+            </div>
+            <div>
+              <a href="">Communities</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="nav2">
+          <div class="navItem" id="settings">
+            <div>
+              <img class="icon" src="/icons/settings.svg" alt="" />
+            </div>
+            <div>
+              <a href="">Settings</a>
+            </div>
+          </div>
+
+          <div class="navItem" id="support">
+            <div>
+              <img class="icon" src="/icons/support.svg" alt="" />
+            </div>
+            <div>
+              <a href="">Support</a>
+            </div>
+          </div>
+
+          <div class="navItem" id="privacy">
+            <div>
+              <img class="icon" src="/icons/Privacy.svg" alt="" />
+            </div>
+            <div>
+              <a href="">Privacy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="item" id="header">
+          <div id="searchBar">
+             <div>
+                <img id="searchIcon" src="icons/search.svg" alt="">
+             </div> 
+              
+             <div>
+                <input type="search" name="search" id="search">
+             </div>
+             
+          </div>
+
+        <div id="userInfo">
+            <div>   
+                <img id="bellIcon" src="./icons/bell.svg" alt="">
+            </div>
+
+            <div id="userImageSmallFrame">
                 
             </div>
 
-            <div id="nav">
-
-                <div class="navItem" id="home">
-                   
-                    <div>
-                        <img class="icon" src="/icons/home.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="">Home</a>
-                    </div>
-                   
-                </div>
-
-                <div class="navItem" id="profile">
-                   
-                    <div>
-                        <img class="icon" src="/icons/profile.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="">Profile</a>
-                    </div>
-                   
-                </div>
-
-                <div class="navItem" id="messages">
-                   
-                    <div>
-                        <img class="icon" src="/icons/messages.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="">Messages</a>
-                    </div>
-                   
-                </div>
-
-                <div class="navItem" id="history">
-                   
-                    <div>
-                        <img class="icon" src="/icons/history.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="">History</a>
-                    </div>
-                   
-                </div>
-
-                <div class="navItem" id="tasks">
-                   
-                    <div>
-                        <img class="icon" src="/icons/tasks.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="">Tasks</a>
-                    </div>
-                   
-                </div>
-
-                <div class="navItem" id="communities">
-                   
-                    <div>
-                        <img class="icon" src="/icons/communities.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="">Communities</a>
-                    </div>
-                   
-                </div>
-
-            </div>
-
-            <div id="nav2">
-                <div class="navItem" id="settings">
-                   
-                    <div>
-                        <img class="icon" src="/icons/settings.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="">Settings</a>
-                    </div>
-                   
-                </div>
-
-                <div class="navItem" id="support">
-                   
-                    <div>
-                        <img class="icon" src="/icons/support.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="">Support</a>
-                    </div>
-                   
-                </div>
-
-                <div class="navItem" id="privacy">
-                   
-                    <div>
-                        <img class="icon" src="/icons/Privacy.svg" alt="">
-                    </div>
-                    <div>
-                        <a href="">Privacy</a>
-                    </div>
-                   
-                </div>
+            <div id="userInfoName">
+                User Name
             </div>
         </div>
 
-        <div class="item" id="header">
+        <div id="userInfo2">
+                <div id="userImageBigFrame">
 
+                </div>
+
+                <div id="welcome">
+                    <div id="welcomeTop">
+                        Hi there,
+                    </div>
+
+                    <div id="welcomeBot">
+                        User Name (@user)
+                    </div>
+                </div>
         </div>
 
-        <div class="item" id="main">
+            <div id="buttons">
 
+                <div>
+                    <button class="button">New</button>
+                </div>
+
+                <div>
+                    <button class="button">Upload</button>
+                </div>
+
+                <div>
+                    <button class="button">Share</button>
+                </div>
+            </div>
+
+      </div>
+
+      <div class="item" id="main">
+          <div id="projects">
+           <div id="projectsText">
+               Your Projects
+           </div>
+              <div class="card">
+                
+                <div class="projectName">
+                    Project Name
+                </div>
+
+                <div class="projectDesc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit facere voluptas eos quisquam vel autem optio sed, consequatur sapiente!
+                </div>
+
+                <div class="cardIcons">
+                    <div>
+                        <img class="cardIcon" src="/icons/star-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/eye-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/source-fork.svg" alt="">
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                
+                <div class="projectName">
+                    Project Name
+                </div>
+
+                <div class="projectDesc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eius nostrum earum sequi quae.
+                </div>
+
+                <div class="cardIcons">
+                    <div>
+                        <img class="cardIcon" src="/icons/star-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/eye-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/source-fork.svg" alt="">
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                
+                <div class="projectName">
+                    Project Name
+                </div>
+
+                <div class="projectDesc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus deserunt molestiae dolores, dolor hic ipsam, illo non iusto, unde corrupti officia iure.
+                </div>
+
+                <div class="cardIcons">
+                    <div>
+                        <img class="cardIcon" src="/icons/star-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/eye-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/source-fork.svg" alt="">
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                
+                <div class="projectName">
+                    Project Name
+                </div>
+
+                <div class="projectDesc">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam maxime illo reiciendis sed tempora itaque id illum dolorem a temporibus? Veritatis rem impedit atque vitae!   
+                </div>
+
+                <div class="cardIcons">
+                    <div>
+                        <img class="cardIcon" src="/icons/star-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/eye-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/source-fork.svg" alt="">
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                
+                <div class="projectName">
+                    Project Name
+                </div>
+
+                <div class="projectDesc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur velit nam nobis quas ipsum beatae vitae autem at. Itaque, minima culpa inventore cupiditate qui debitis natus officiis repellat nulla doloremque ipsa exercitationem vitae!
+                </div>
+
+                <div class="cardIcons">
+                    <div>
+                        <img class="cardIcon" src="/icons/star-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/eye-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/source-fork.svg" alt="">
+                    </div>
+                </div>
+              </div>
+
+              <div class="card">
+                
+                <div class="projectName">
+                    Project Name
+                </div>
+
+                <div class="projectDesc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aperiam minima modi, suscipit rem sequi explicabo odio neque qui necessitatibus perferendis. Commodi minima ipsam ipsa quam vel nobis, excepturi minus nisi.
+                </div>
+
+                <div class="cardIcons">
+                    <div>
+                        <img class="cardIcon" src="/icons/star-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/eye-plus.svg" alt="">
+                    </div>
+
+                    <div>
+                        <img class="cardIcon" src="/icons/source-fork.svg" alt="">
+                    </div>
+                </div>
+              </div>
+
+
+                 
+          </div>
+
+          <div id="announcements">
+            <div>
+                Announcements
+            </div> 
+            <div id="announcementsPanel">
+                <div class="apItem1">
+                    <div class="apItemName">Annoucement One</div>
+                    <div class="apItemDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam reprehenderit maiores harum? Voluptatibus, impedit.</div>
+                </div>
+                <div class="apItem2">
+                    <div class="apItemName">Annoucement Two</div>
+                    <div class="apItemDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem assumenda vero doloribus.</div>
+                </div>
+                <div class="apItem3">
+                    <div class="apItemName">Annoucement Three</div>
+                    <div class="apItemDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, praesentium.</div>
+                </div>
+            </div>
+            
         </div>
+            <div id="trending">
+                <div>Trending</div>
+                <div id="trendingUsers">
 
+                    <div class="user">
+                        <div class="userImage"></div>
+                        <div>
+                            <div class="userName">@user1</div>
+                            <div class="userInfo">Lorem, ipsum dolor.</div>
+                        </div>
+                        
+                    </div>
 
+                    <div class="user">
+                        <div class="userImage"></div>
+                        <div>
+                            <div class="userName">@user2</div>
+                            <div class="userInfo">Lorem ipsum dolor sit amet.</div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="user">
+                        <div class="userImage"></div>
+                        <div>
+                            <div class="userName">@user3</div>
+                            <div class="userInfo">Lorem ipsum dolor sit.</div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="user">
+                        <div class="userImage"></div>
+                        <div>
+                            <div class="userName">@user4</div>
+                            <div class="userInfo">Lorem ipsum dolor sit amet.</div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>
